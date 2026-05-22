@@ -1,0 +1,192 @@
+/*
+ * An increased contrast highlighting scheme loosely based on the
+ * "Base16 Atelier Dune Light" theme by Bram de Haan
+ * (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune)
+ * Original Base16 color scheme by Chris Kempson
+ * (https://github.com/chriskempson/base16)
+ */
+
+/* Comment */
+.hljs-comment,
+.hljs-quote {
+  color: #575757;
+}
+
+/* Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-attr,
+.hljs-tag,
+.hljs-name,
+.hljs-regexp,
+.hljs-link,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #d70025;
+}
+
+/* Orange */
+.hljs-number,
+.hljs-meta,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params {
+  color: #b21e00;
+}
+
+/* Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #008200;
+}
+
+/* Blue */
+.hljs-title,
+.hljs-section {
+  color: #0030f2;
+}
+
+/* Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #9d00ec;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #f6f7f6;
+  color: #000;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-addition {
+  color: #22863a;
+  background-color: #f0fff4;
+}
+
+.hljs-deletion {
+  color: #b31d28;
+  background-color: #ffeef0;
+}
+
+/* Vif reference highlighting */
+.hljs {
+  background: #f5f7fa;
+  color: #111820;
+}
+
+.coal .hljs,
+.navy .hljs,
+.ayu .hljs {
+  background: #0c1117;
+  color: #e7ebf0;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #5f6b7a;
+  font-style: italic;
+}
+
+.coal .hljs-comment,
+.coal .hljs-quote,
+.navy .hljs-comment,
+.navy .hljs-quote,
+.ayu .hljs-comment,
+.ayu .hljs-quote {
+  color: #98a6b8;
+}
+
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #005ea8;
+  font-weight: 700;
+}
+
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #8b1e13;
+}
+
+.hljs-meta {
+  color: #745200;
+  font-weight: 700;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet {
+  color: #2e7044;
+}
+
+.hljs-number,
+.hljs-literal {
+  color: #5c5f85;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #1a4480;
+}
+
+.coal .hljs-keyword,
+.coal .hljs-selector-tag,
+.navy .hljs-keyword,
+.navy .hljs-selector-tag,
+.ayu .hljs-keyword,
+.ayu .hljs-selector-tag {
+  color: #73b3e7;
+}
+
+.coal .hljs-type,
+.coal .hljs-built_in,
+.coal .hljs-builtin-name,
+.navy .hljs-type,
+.navy .hljs-built_in,
+.navy .hljs-builtin-name,
+.ayu .hljs-type,
+.ayu .hljs-built_in,
+.ayu .hljs-builtin-name {
+  color: #ffb4a2;
+}
+
+.coal .hljs-meta,
+.navy .hljs-meta,
+.ayu .hljs-meta {
+  color: #ffbe2e;
+}
+
+.coal .hljs-string,
+.coal .hljs-symbol,
+.coal .hljs-bullet,
+.navy .hljs-string,
+.navy .hljs-symbol,
+.navy .hljs-bullet,
+.ayu .hljs-string,
+.ayu .hljs-symbol,
+.ayu .hljs-bullet {
+  color: #70e099;
+}
+
+.coal .hljs-number,
+.coal .hljs-literal,
+.navy .hljs-number,
+.navy .hljs-literal,
+.ayu .hljs-number,
+.ayu .hljs-literal {
+  color: #b8bdf0;
+}
