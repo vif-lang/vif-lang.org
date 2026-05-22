@@ -1,0 +1,15 @@
+[book]
+title = "Vif language reference"
+authors = ["Vif contributors"]
+language = "en"
+
+[output.html.print]
+enable = true
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html]
+additional-css = ["theme/custom.css"]
+site-url = "/lang-ref/"
